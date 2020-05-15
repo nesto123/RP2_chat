@@ -1,0 +1,268 @@
+
+
+.header{
+  background-color: #e80b0b;
+  color: #ffffff;
+  padding: 35px;
+  text-align: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius:  50px;
+  margin-left: 21%;
+  margin-right: 17%;
+  background: linear-gradient(red, orange);
+}
+body{
+  background-color: #DCDCDC;
+ /* background-image: url("math2.jpg");
+  background-blend-mode: darken;
+*/
+}
+.menu{
+  float: left;
+
+  margin-left:0px;
+  margin-right: 10px;
+  margin-top: 19px;
+  margin-bottom: 10px;
+  width: 20%;
+  text-align: left;
+}
+.menu ul{
+
+  list-style-type: none;
+  color: black;
+  margin-right: 4px;
+  margin-left: 15px;
+  padding-left: 0px;
+}
+.container {
+  width: 500px;
+  /*clear: both;*/
+}
+
+.container input {
+  width: 100%;
+  /*clear: both;*/
+}
+.container button {
+  width: 100%;
+  /*clear: both;*/
+}
+
+
+/*
+.messeges ul{
+  list-style: none;
+}*/
+.messeges ul li{
+  color: var(--c);
+  font-size: 20px;
+  
+}
+.messeges ul li span{
+  color:black;
+  font-size: 16px;
+}
+.messeges a{
+  color:blue
+}
+
+/*
+.messeges ul li::before{
+  content: "\2022";
+  color: var(--c);
+  background-position: 0 5px;
+  /*line-height: 1.5625;*/
+  /*font-size: 30pt;
+  margin-left: -30px;
+  margin-right: 10px;
+}*/
+aside{
+  background-color: orange;
+  float: right;
+  width: 15%;
+
+  margin-right: 10px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-size: 14px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+
+}
+.menu li{
+  color: black;
+  font-style: oblique;
+  padding-left: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:  20px;
+
+  background-color: orange;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 0px 3px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.24);
+  text-align: center;
+}
+.menu li:hover{
+  background-color: #3ac9d1;
+}
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+article{
+  margin-left: 21%;
+  margin-top: 35px;
+  background-color: white;
+  margin-right: 17%;
+  padding: 20px;
+  padding: 25px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius:  40px;
+
+}
+p{
+  text-align: justify;
+}
+.txt{
+  text-align: center;
+
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; 
+  background-color: orange;
+  background-blend-mode:darken;
+  clear: right;
+margin-right: -8;
+  text-align: center;
+  padding: 35px;
+  font-size: 10px;
+  border-top-left-radius: 50px;
+  /*border-top-right-radius: 50px;*/
+  /*border-bottom-right-radius:  50px;*/
+  text-align: center;
+}
+/*
+footer {
+  position: relative;
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  background-blend-mode:darken;
+  clear: right;
+  text-align: center;
+  padding: 35px;
+  font-size: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  /*border-bottom-right-radius:  50px;*/
+  /*text-align: center;
+}*/
+/*
+footer{
+  background-color: orange;
+  background-blend-mode:darken;
+  clear: right;
+  text-align: center;
+  margin-top: 50px;
+  padding: 35px;
+  font-size: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius:  50px;
+}*/
+h4{
+  font-size: 18px;
+}
+
+h3{
+  font-size: 25px;
+}
+h1{
+  font-size: 36px;
+}
+iframe{
+    height:350px;
+  width:70%;
+  margin-left:15%;
+  
+}
+img{
+  max-width: 70%;
+  height:inherit;
+  height: auto;
+  margin-left: 20%;
+  margin-right: auto;
+}
+a{
+  color:black;
+  text-decoration: none;
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header{
+      width: 100%;
+      margin: 0;
+
+    }
+    body{
+      background:none;
+
+    }
+     .menu{
+        width: 100%;
+    }
+    .menu ul{
+
+      list-style-type: none;
+      color: black;
+      margin-right: 40px;
+    }
+    article{
+      margin-left: 5%;
+      background-color: white;
+      margin-right: 5%;
+      border-top-left-radius: 0;
+      border-bottom-right-radius:  0;
+      margin-bottom: 10%;
+      margin-top: 10%;
+
+    }
+    aside{
+
+
+      width:100%;
+      margin-left:0px;
+      margin-right: 0px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      font-size: 14px;
+
+    }
+    img{
+      margin-left: auto;
+    }
+}

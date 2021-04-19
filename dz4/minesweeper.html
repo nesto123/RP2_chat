@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Minesweeper</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="minesweeper.js"></script>
+    <style>
+        canvas {border: solid 1px black}
+    </style>
+</head>
+<body>
+    <h1>Minesweeper</h1>
+    
+    <form name='forma' onsubmit="validateForm(event)">
+        Za unose mora vrijediti: <br>
+        1 &le; broj reaka, broj stupaca &le; 20 <br>
+        0 &le; broj mina &le; broj redaka * broj stupaca <br>
+        <br>
+        Unesi broj redova:
+        <input type="number" name='nRows'><br>
+        Unesi broj stupaca:
+        <input type="number" name='nCols'><br>
+        Unesi broj mina:
+        <input type="number" name='nMines'><br>
+        <input type="submit" value="Unesi">
+    </form>
+    <canvas width="500" height="500" id="cnv" style="display: none;"></canvas>
+    <br>
+    <button class="reset" style="display: none;">Reset</button>
+</body>
+</html>

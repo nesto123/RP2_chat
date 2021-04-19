@@ -1,15 +1,13 @@
-# RP2_dz
+# Rokudoku
 
 [![CC BY-NC-SA 4.0][cc-shield]][cc]
+[![stability-beta](https://img.shields.io/badge/stability-beta-33bbff.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#beta)
 
 
 Homework for university course [Računarski praktikum 2](https://web.math.pmf.unizg.hr/nastava/rp2d/), academic year 2019/2020, University of Zagreb, Faculty of Science, Department of Mathematics.
 
-Assignments:
-* [Rokudoku](dz1/)
-* [Chat](dz2/)
-* [Gallery](dz3/)
-* [Minesweeper](dz4/)
+Assignment description is available [here](zadatak.pdf).
+
 
 <!-- App is avalible at [Neftly](https://zealous-noyce-1a10d0.netlify.app/).
 
@@ -29,4 +27,4 @@ To run and/or edit simulator offline, clone repository and open [index.html](ind
 [cc-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 
-License can be found under [License](LICENSE).
+License can be found under [License](../LICENSE).
